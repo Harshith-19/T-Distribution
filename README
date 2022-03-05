@@ -1,0 +1,13 @@
+T - Distribution
+T-distribution is any member of a family of continuous probability distributions that arise when estimating the mean of a normally distributed population in situations where the sample size is small and the population's standard deviation is unknown.
+The submitted file contains a javascript file, a HTML file and a CSS file.
+HTML file is used for the basic skeleton of the webpage and add heading, slider etc.
+Javascript file:
+	a. A function called as create is defined which is used to create the graph taking data as the input.
+	b. Various elemts of the graph is determined later in the function such as defining a border,  X-axis, SVG object, Y-axis and finally plotting the line.
+	c. The density function of a T-distribution contains a Gamma function, thus a Function called Gamma is defined so that it can be used in the formula of density function.
+	d. Next another function called Plot is defined which is used to plot the Graph and in this function Create function is called.
+	e. In the Plot function a function called Point is defined which return the Y coordinate for the given x-coordinate using density function of t-distribution.
+	f. The final part consists of slider which runs when the input is given (Degrees of Freedom) and Plot function is called int it.
+CSS file consists of various stylings added to webpage and Graph to make it more attractive.
+Run the HTML file on live server to view the T-distribution.

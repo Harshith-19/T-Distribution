@@ -1,0 +1,29 @@
+body{
+    text-align: center
+}
+p,
+div {
+    display: inline-block;
+}
+
+#Data {
+    float: left;
+}
+
+svg {
+    border: 1.5px solid;
+    border-radius: 23px;
+    font-size: 20px;
+}
+
+circle:hover {
+    fill: grey;
+}
+
+.setProps {
+    margin: 10%;
+}
+ul{
+    list-style-type: none;
+    float: top;
+}
